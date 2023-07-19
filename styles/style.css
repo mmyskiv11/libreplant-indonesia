@@ -174,8 +174,8 @@ footer p {
   text-align: center;
 }
 
-/* Medium devices (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {
+/* Medium devices (landscape tablets, 810px and down) */
+@media screen and (max-width: 810px) {
   header.navbar {
     flex-direction: column;
   }
