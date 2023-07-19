@@ -54,7 +54,7 @@ header.navbar .nav-list li:hover a {
   background-color: #087f5b;
   color: white;
 }
-
+/* End of Nav CSS */
 main {
   max-width: 1200px;
   width: 100%;
@@ -75,7 +75,7 @@ main .content .description {
   flex: 1 1;
 }
 
-main .content .description .title .jargon {
+main .content .description .profile-title {
   font-size: 3.5rem;
   margin-block: 1rem;
 }
@@ -83,39 +83,6 @@ main .content .description .title .jargon {
 main .content .description p {
   line-height: 1.7rem;
   font: 1.2rem;
-}
-
-main .content .description button {
-  padding: 0.8rem 2.5rem;
-  margin-block-start: 1rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1rem;
-  font-family: Poppins, sans-serif;
-  color: white;
-
-  border: 3px solid transparent;
-  border-radius: 999px;
-  background-color: #087f5b;
-  cursor: pointer;
-  transition: all 0.15s ease-in;
-}
-
-main .content .description button:hover {
-  border: 3px solid #087f5b;
-  color: #087f5b;
-  background-color: transparent;
-}
-
-main .content .content-image {
-  flex: 1;
-  display: flex;
-}
-
-main .content .content-image img {
-  margin: auto;
-  min-width: 350px;
-  width: 400px;
 }
 
 main aside {
@@ -157,7 +124,7 @@ main aside .social-media li a {
 main aside .social-media li a:hover {
   color: #38d9a9;
 }
-/* End of Main Content */
+/* End of Main CSS */
 
 footer {
   display: flex;
@@ -173,36 +140,4 @@ footer p {
   margin: auto;
   text-align: center;
 }
-
-/* Medium devices (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {
-  header.navbar {
-    flex-direction: column;
-  }
-
-  header.navbar .nav-list {
-    flex-wrap: wrap;
-    column-gap: 0.5rem;
-  }
-
-  main {
-    padding: 1rem 3rem;
-  }
-
-  main .content {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  main .content .description .title .jargon {
-    font-size: 3rem;
-  }
-
-  main .content .description p {
-    font-size: 1rem;
-  }
-
-  main .content .content-image {
-    order: -1;
-  }
-}
+/* End of Footer CSS */
