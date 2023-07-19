@@ -92,7 +92,8 @@ main .content .description .about-content {
 main .about-content div {
   padding: 1.5rem;
   width: 100%;
-  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: -1px 1px 10px 5px #bdbdbd;
 }
 
 main .content .description .about-content p {
