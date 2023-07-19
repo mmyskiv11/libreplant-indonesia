@@ -177,7 +177,7 @@ footer p {
 /* End of Footer CSS */
 
 /* Medium devices (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   header.navbar {
     flex-direction: column;
   }
@@ -188,14 +188,16 @@ footer p {
   }
 
   main {
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     padding: 1rem 3rem;
     width: 100%;
-    margin: auto;
   }
 
   main .content {
-    flex-flow: column nowrap;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 2rem;
     width: 100%;
   }
@@ -203,17 +205,17 @@ footer p {
   main .content .description .program-title {
     font-size: 3rem;
     width: 100%;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 
   main .content .description .program-content {
     font-size: 1rem;
     width: 100%;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 
   main .content .description .program-content .content-section {
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     width: 100%;
   }
 
