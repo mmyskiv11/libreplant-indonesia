@@ -221,7 +221,7 @@ footer p {
 }
 
 /* Medium devices (landscape tablets, 768px and down) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   header.navbar {
     flex-direction: column;
   }
@@ -233,11 +233,16 @@ footer p {
 
   main {
     padding: 1rem 3rem;
+    width: 100%;
   }
 
   main .content {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 2rem;
+    width: 100%;
   }
 
   main .content .description .messages {
