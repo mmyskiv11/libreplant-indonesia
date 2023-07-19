@@ -188,30 +188,33 @@ footer p {
   }
 
   main {
+    flex-flow: column nowrap;
     padding: 1rem 3rem;
     width: 100%;
+    margin: auto;
   }
 
   main .content {
-    flex-direction: column;
+    flex-flow: column nowrap;
     gap: 2rem;
     width: 100%;
-  }
-
-  main .content-section {
-    flex-flow: column wrap;
-    width: 100vw;
   }
 
   main .content .description .program-title {
     font-size: 3rem;
     width: 100%;
+    flex-flow: column nowrap;
   }
 
   main .content .description .program-content {
     font-size: 1rem;
     width: 100%;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
+  }
+
+  main .content .description .program-content .content-section {
+    flex-flow: column nowrap;
+    width: 100%;
   }
 
   footer {
