@@ -180,16 +180,18 @@ footer p {
     flex-direction: column;
   }
 
-  header.navbar .nav-list {
+  header.navbar .nav-list ul {
     flex-wrap: wrap;
     column-gap: 0.5rem;
   }
 
   main {
+    width: 100%;
     padding: 1rem 3rem;
   }
 
   main .content {
+    width: 100%;
     flex-direction: column;
     gap: 2rem;
   }
@@ -204,5 +206,9 @@ footer p {
 
   main .content .content-image {
     order: -1;
+  }
+
+  main .content .content-image img {
+    width: 90%;
   }
 }
